@@ -2,7 +2,7 @@
 
 ![Imagem da Tela](https://user-images.githubusercontent.com/38532053/225432040-068c9129-3066-4f9a-b04d-61322f84f2fd.png)
 
-<p align="justify">Este repositório disponibiliza um projeto feito por mim que teve como ffinalidade aplicar conhecimentos de Python, API, interface gráfica e programação orientada a objetos.
+<p align="justify">Este repositório disponibiliza um projeto feito por mim que teve como finalidade aplicar conhecimentos de Python, API, interface gráfica e programação orientada a objetos.
 A aplicação é uma ferramenta que faz a cotação e cambio entre moedas do mundo todo, ela exibe as informações de cotação, 
 valor de compra, valor de venda, variação, porcentagem de variação, máximo e mínimo. </p>
 <p align="justify">O projeto foi desenvolvido em python, onde se ulilizou as bibliotecas, <a href="https://www.pysimplegui.org/en/latest/">PySimpleGUI</a>
