@@ -7,7 +7,7 @@ class ConversorDeMoedasUniversal():
     def __init__(self,moeda1,moeda2):
         if self._moeda_e_valida(moeda1) & self._moeda_e_valida(moeda2):
             uniao = str(moeda1+"-"+moeda2)
-            self._cotacaodasmoedas = self._cotacao(uniao)
+            self.cotacaodasmoedas = self._cotacao(uniao)
     def _moeda_e_valida(self,moeda):
         with open("moedas.xml",'r',encoding='utf-8') as f:
             xml = minidom.parse(f)
@@ -38,14 +38,14 @@ class ConversorDeMoedasUniversal():
             return sg.popup_error('NÃO FOI POSSIVEL FAZER A COTAÇÃO DAS MOEDAS!!!')
 
 
-    def __str__(self):
-        return self.format_moeda()
+    #def __str__(self):
+   #     return self.format_moeda()
 
-    def _format_moeda(self):
-        return "{}".format(self._cotacaodasmoedas["name"])
+    #def _format_moeda(self):
+    #    return "{}".format(self._cotacaodasmoedas["name"])
 
     def get_informacoes(self):
-        return self._cotacaodasmoedas
+        return self.cotacaodasmoedas
 
     def coversao(self):
-        return self._cotacaodasmoedas["bid"]
+        return self.cotacaodasmoedas["bid"]
