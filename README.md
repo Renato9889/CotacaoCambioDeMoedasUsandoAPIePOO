@@ -1,4 +1,4 @@
-<h1 align="center"> Cotação e Cambio de Moedas Usando API, Interface e POO</h1>
+<h1 align="center"> Cotação e Cambio de Moedas Usando Python, API, Interface e POO</h1>
 
 ![Imagem da Tela](https://user-images.githubusercontent.com/38532053/225432040-068c9129-3066-4f9a-b04d-61322f84f2fd.png)
 
