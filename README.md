@@ -14,15 +14,22 @@ para a interfacce gráfica, <a href="https://docs.python.org/3/library/xml.html"
  selecionar as moedas e assim se instancia um objeto de cotação, logo com objeto, é exibido as informações na interface para o usuario poder vizualizar. A abaixo é mostrado
  passo a passo como funciona a aplicação.</p>
  <h2>Passo 1 - Selecione uma moeda</h2>
- ![imagem1](https://user-images.githubusercontent.com/38532053/225451248-e7325fe3-32f8-4011-8143-57325fe4b2e6.png)
+<img src = "https://user-images.githubusercontent.com/38532053/225451248-e7325fe3-32f8-4011-8143-57325fe4b2e6.png">
 <h2>Passo 2 - Selecione outra moeda</h2>
-![imagem2](https://user-images.githubusercontent.com/38532053/225451340-0e6ab073-01e1-45b4-92cd-1a076965ea6f.png)
+<img src = "https://user-images.githubusercontent.com/38532053/225451340-0e6ab073-01e1-45b4-92cd-1a076965ea6f.png">
 <h2>Passo 3 - Confirme em OK para ver a cotação das moedas</h2>
-![imagem3](https://user-images.githubusercontent.com/38532053/225451445-c0618e6c-ee4f-4309-a38a-48cb4e131ace.png)
-<h2>Respostas da aplicação</h2>
+<img src = "https://user-images.githubusercontent.com/38532053/225451445-c0618e6c-ee4f-4309-a38a-48cb4e131ace.png">
+<h2>✉Respostas da aplicação</h2>
 <p>Caso não exista as informações de cotação das moedas é exibido um alerta</p>
-![imagem4](https://user-images.githubusercontent.com/38532053/225451507-2d7d7958-018f-486b-8471-313b4d64fc99.png)
+<img src = "https://user-images.githubusercontent.com/38532053/225451507-2d7d7958-018f-486b-8471-313b4d64fc99.png">
 <p>Caso não seja selecionado as moedas é alertado que os campos estão vazios</p>
-![imagem7](https://user-images.githubusercontent.com/38532053/225451546-222a08b2-3558-449a-9ea4-5b2289d470ed.png)
+<img src = "https://user-images.githubusercontent.com/38532053/225453382-78f503bd-57d9-436a-81ba-cb9ee1412dcc.png">
 <p>Caso as moedas sejam iguais tambem é exibido uma tela de alerta</p>
-![imagem8](https://user-images.githubusercontent.com/38532053/225451565-b7ec7d64-2fb3-4826-96a2-ac8be5766958.png)
+<img src = "https://user-images.githubusercontent.com/38532053/225453377-3696f3e0-9b64-4cf3-9cfc-73ec4c811f61.png">
+
+## ✔️ Técnicas e tecnologias utilizadas
+- ``Python3``
+- ``PyCharm``
+- ``Paradigma de orientação a objetos``
+- ``API``
+- ``Interface Gráfica``
