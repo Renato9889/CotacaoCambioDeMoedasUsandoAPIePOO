@@ -42,7 +42,7 @@ while True:
         objeto = ConversorDeMoedasUniversal(moeda1,moeda2)
         if(objeto.get_informacoes() != "Error"):
             sg.popup("         Cotação - "+objeto.get_informacoes()['name']+"         \x00\n",
-                "Valor de Comprar: "+ objeto.get_informacoes()['bid']+"\n",
+                "Valor de Compra: "+ objeto.get_informacoes()['bid']+"\n",
                   "Valor de Venda: "+ objeto.get_informacoes()['ask']+"\n",
                   "Variação: "+ objeto.get_informacoes()['varBid']+"\n",
                  "Porcetagem Variação: "+ objeto.get_informacoes()["pctChange"]+"%"+"\n",
