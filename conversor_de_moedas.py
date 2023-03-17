@@ -12,20 +12,14 @@ class ConversorDeMoedasUniversal():
         with open("moedas.xml",'r',encoding='utf-8') as f:
             xml = minidom.parse(f)
             ExisteMoeda = xml.getElementsByTagName(moeda)
-            if(len(ExisteMoeda)!=0):
-                return True
-            else:
-                return False
+            return (len(ExisteMoeda)!=0)
     def _verificar(self,tag):
         tree = ET.parse('conversoes.xml')
         root = tree.getroot()
         listaTags = []
         for desc in root:
             listaTags.append(desc.tag)
-        if tag in listaTags:
-            return True
-        else:
-            return False
+        return tag in listaTags
     def _cotacao(self,moeda):
         url = "https://economia.awesomeapi.com.br/last/{}".format(moeda)
         req = requests.get(url)
