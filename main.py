@@ -17,7 +17,7 @@ sg.theme('TealMono')  # Add a touch of color
 layout = [  [sg.Text('Selecione uma moeda'),sg.Combo(listaMoedas)],
             [sg.Text('Selecione outra moeda'),sg.Combo(listaMoedas)],
             [sg.Button('Ok'), sg.Button('Cancel')],
-            [sg.Image(r'D:\AluraCursos\ConversorDeMoedasUsandoApi\pg.png',size=(1000,500))]
+            [sg.Image(r'pg.png',size=(1000,500))]
             ]
 # Create the Window
 
